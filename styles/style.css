@@ -265,6 +265,7 @@ font-size: 45px;
     display: flex;
     margin-left: 291px;
     gap: 125px;
+
    
 }
 .facts{
@@ -274,9 +275,13 @@ font-size: 45px;
     border-radius: 8px;
     text-align: center;
     padding-top: 50px;
+   
   
 
 } 
+.icon-container .facts:hover{
+    background-color: #FF900E;
+}
 
 
 /* <!--==================
@@ -302,8 +307,12 @@ margin-left: 690px;
     margin-left: 240px;
     gap: 155px;
     margin-top: 50px;
-}
+    filter: grayscale(100);
 
+}
+.sponsors-icon img:hover{
+    background-color: #00ff62;
+}
 
 
 .last-section{
@@ -397,6 +406,8 @@ height: 50px;
     margin-left: 0;
     margin-top: 105px;
     align-items: center;
+   
+
 }
 .sponsors-div .section-three-para {
     margin-left: -668px;
